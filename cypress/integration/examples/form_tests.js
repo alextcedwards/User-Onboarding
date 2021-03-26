@@ -25,8 +25,8 @@ describe("Form app", () => {
     it("if input is empty", () => {
       nameInput()
         .should("have.value", "")
-        .type("whatever")
-        .should("have.value", "whatever");
+        .type("test")
+        .should("have.value", "test");
     });
   });
 });
